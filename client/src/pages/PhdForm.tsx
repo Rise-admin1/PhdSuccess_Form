@@ -163,7 +163,7 @@ const PhdForm = () => {
 
             <button
               type="submit"
-              disabled={!formData.consent || !formData.disclaimer}
+              disabled={!formData.consent }
               className="w-full bg-red-500 text-white py-3 px-4 rounded-lg flex items-center justify-center space-x-2 
                 disabled:opacity-50 disabled:cursor-not-allowed hover:bg-red-600 transition-colors"
             >
