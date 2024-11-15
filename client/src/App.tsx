@@ -1,4 +1,4 @@
-import { createBrowserRouter, RouterProvider, Outlet, Navigate, } from 'react-router-dom'
+import { createBrowserRouter, RouterProvider, Outlet} from 'react-router-dom'
 import { lazy, Suspense } from 'react';
 
 const Layout = ({ children }) => {

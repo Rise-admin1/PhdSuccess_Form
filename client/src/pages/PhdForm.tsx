@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Card } from "../components/ui/card";
-import { User, Mail, Phone, Info } from 'lucide-react';
+import { User, Mail, Phone,} from 'lucide-react';
 
 const PhdForm = () => {
   const [formData, setFormData] = useState({
